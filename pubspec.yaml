@@ -1,0 +1,27 @@
+name: flutter_login_mobx_multi_user
+description: flutter_login_mobx_multi_user.
+version: 1.0.0+1
+
+publish_to: none
+
+environment:
+  sdk: ^2.19.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  flutter_login_mobx_multi_common:
+    git:
+      url: https://github.com/mthsena/flutter_login_mobx_multi_common.git
+  flutter_login_mobx_multi_theming:
+    git:
+      url: https://github.com/mthsena/flutter_login_mobx_multi_theming.git
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
